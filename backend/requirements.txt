@@ -1,0 +1,24 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+Pillow<10
+easyocr==1.7.0
+requests==2.31.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+# requirements.txt
+pydantic-settings==2.1.0
+pytesseract==0.3.10
+aiohttp
+opencv-python-headless
+numpy
+transformers
+torch
+sentencepiece
+huggingface_hub
+ujson
+camelot-py[cv]
+pdf2image
+diffusers
+accelerate
+safetensors
