@@ -1,0 +1,61 @@
+# ---- General ----
+*.log
+*.DS_Store
+*.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+dist/
+build/
+.cache/
+.tmp/
+
+# ---- Python (FastAPI) ----
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+instance/
+.pyre/
+
+# ---- Node.js (React frontend) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ---- VSCode / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS ----
+Thumbs.db
+.DS_Store
+ehthumbs.db
+desktop.ini
+
+# ---- Docker ----
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# ---- Optional (if storing uploads/tmp files) ----
+/uploads/
+/tmp/
+/media/
+/staticfiles/
