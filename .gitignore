@@ -1,3 +1,4 @@
+.env
 # ---- General ----
 *.log
 *.DS_Store
